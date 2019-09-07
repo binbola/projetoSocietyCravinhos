@@ -32,15 +32,8 @@
     *display: inline;
 }
 
-.col-7 {
-    width: 70%;
-}
 
-.col-3 {
-    width: 30%;
-}
-
-/* duas coluans */
+/* duas colunas */
 @media (min-width: 480px){
     .col-2{
         width: 50%;
@@ -51,11 +44,23 @@
     }
 }
 
+@media (min-width: 992px) {
+    /* coluna conteudo 70% */
+    .col-conteudo {
+        width: 70%;
+    }
+
+    /* coluna sidebar-right 30% */
+    .col-sidebar {
+        width: 30%;
+    }
+}
+
+
 .teste {
     background-color: red;
     padding: 5px;
     text-align: center;
     margin: 2px 0;
     color: #fff;
-    
 }
