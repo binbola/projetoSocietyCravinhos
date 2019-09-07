@@ -32,6 +32,14 @@
     *display: inline;
 }
 
+.col-7 {
+    width: 70%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
 /* duas coluans */
 @media (min-width: 480px){
     .col-2{
